@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "app.py",  // Ganti dengan nama file entry point Flask Anda
+      "src": "app.py", 
       "use": "@vercel/python"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "app.py"  // Ganti dengan nama file entry point Flask Anda
+      "dest": "app.py" 
     }
   ]
 }
